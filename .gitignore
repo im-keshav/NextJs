@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Logs & Environment
+*.log
+.env*
+!.env.example
+
+# OS & Misc
+.DS_Store
+*.pem
+.vercel
