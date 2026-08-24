@@ -46,7 +46,7 @@ export const AiMatchmaker: React.FC = () => {
       <div className="glass-panel pulse-glow" style={{ padding: '2rem' }}>
         <div style={{ maxWidth: '800px' }}>
           <div className="badge badge-purple" style={{ marginBottom: '0.75rem' }}>
-            <Sparkles size={13} /> Gemini 2.5 & MCP Tool Protocol Engine
+            <Sparkles size={13} /> Gemini 3.6 & MCP Tool Protocol Engine
           </div>
           <h2 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>
             Find Your <span className="gradient-text">Purrfect Match</span>

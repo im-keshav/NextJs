@@ -84,7 +84,7 @@ export const CatGptChat: React.FC<CatGptChatProps> = ({ initialPrompt }) => {
           </div>
           <div>
             <h3 style={{ fontSize: '1.2rem', margin: 0 }}>CatGPT AI Assistant</h3>
-            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Powered by Gemini 2.5 Flash</p>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Powered by Gemini 3.6 Flash</p>
           </div>
         </div>
       </div>

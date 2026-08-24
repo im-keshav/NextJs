@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="catGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="50%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  <polygon points="120,130 170,250 100,240" fill="url(#catGrad)" />
+  <polygon points="392,130 412,240 342,250" fill="url(#catGrad)" />
+  <path d="M120 250 C120 180, 392 180, 392 250 C392 360, 120 360, 120 250 Z" fill="url(#catGrad)" />
+  <ellipse cx="215" cy="305" rx="42" ry="32" fill="#fff" opacity="0.9" />
+  <ellipse cx="297" cy="305" rx="42" ry="32" fill="#fff" opacity="0.9" />
+  <polygon points="256,275 244,290 268,290" fill="#e11d48" />
+  <ellipse cx="195" cy="240" rx="30" ry="36" fill="url(#eyeGrad)" />
+  <ellipse cx="317" cy="240" rx="30" ry="36" fill="url(#eyeGrad)" />
+  <ellipse cx="195" cy="240" rx="10" ry="26" fill="#090d16" />
+  <ellipse cx="317" cy="240" rx="10" ry="26" fill="#090d16" />
+</svg>

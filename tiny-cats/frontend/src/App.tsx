@@ -5,6 +5,7 @@ import { AiMatchmaker } from './components/AiMatchmaker';
 import { CatGptChat } from './components/CatGptChat';
 import { McpInspector } from './components/McpInspector';
 import { AddCatModal } from './components/AddCatModal';
+import { PwaPrompt } from './components/PwaPrompt';
 import { getAllCats, searchCats, fetchHealthCheck, createCat } from './services/api';
 import type { Cat } from './types/cat';
 import { Heart } from 'lucide-react';
@@ -166,6 +167,9 @@ export function App() {
         onClose={() => setIsAddModalOpen(false)}
         onCatAdded={handleCatAdded}
       />
+
+      {/* PWA Install & Offline Alert Banners */}
+      <PwaPrompt />
 
       {/* Footer */}
       <footer style={{ marginTop: '4rem', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.85rem' }}>
